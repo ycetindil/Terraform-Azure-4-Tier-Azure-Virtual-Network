@@ -93,7 +93,7 @@ Create `subnets-nsgs.tf` file and create modules for
 ## 06-05: Terraform Output Values for Azure Virtual Network
 Create `outputs.tf` file and output the names and IDs of VNet and subnets.
 
-## Step-08: Execute Terraform Commands
+## 07: Execute Terraform Commands
 ```t
 # Terraform Initialize
 terraform init
@@ -108,7 +108,7 @@ terraform plan
 terraform apply -auto-approve
 ```
 
-## Step-09: Verify Resources
+## 08: Verify Resources
 1. Azure Resource Group
 2. Azure Virtual Network
 3. Azure Subnets (Web, App, DB, Bastion)
@@ -116,7 +116,7 @@ terraform apply -auto-approve
 5. View the topology
 6. Verify Terraform Outputs in Terraform CLI
 
-## Step-10: Delete Resources
+## 09: Delete Resources
 ```t
 # Delete Resources
 terraform destroy
